@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TubaTech</title>
+
+  <link rel="stylesheet" href="css/pagamento.css">
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="img/logo-removebg-preview.png" alt="Logo TubaTech">
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="pesquise por produtos">
+      <button class="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="user-actions">
+      <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+      <a href="#" title="Perfil"><i class="fas fa-user"></i></a>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+
+
+  <main class="pagamento-container"> <!-- classe pagamento container serve para estilização.-->
+
+    <div class="checkout-content">
+
+      <!-- ENVIO -->
+      <section class="envio-container" id="form-envio">
+        <h3>1. Envio</h3>
+
+        <p>Endereços Cadastrados</p>
+        <input type="text" class="input-endereco" value="Ave******** *****.***" readonly>
+        <!--  value="...": valor preenchido automaticamente.---->
+        <!-- readonly: impede que o usuário edite o campo diretamente.-->
+
+
+        <div class="opcoes-entrega-wrapper">
+
+          <!--Container para as opções de entrega disponíveis.-->
+          
+          <div class="opcao-entrega frete-incluso" id="opcao-frete-incluso">
+            <p class="titulo">ENTREGA COM FRETE INCLUSO</p>
+            <p class="info">compras abaixo de R$200,00</p>
+            <p class="total">+R$29,90</p>
+            <p class="valor" id="valor-frete-incluso">R$0,00</p>
+            <p class="prazo">*prazo de entrega 8 dias úteis</p>
+          </div>
+
+          <div class="opcao-entrega frete-gratis" id="opcao-frete-gratis">
+            <p class="titulo">ENTREGA COM FRETE GRÁTIS</p>
+            <p class="info">compras acima de R$200,00</p>
+            <p class="valor" id="valor-frete-gratis">R$0,00</p>
+            <p class="prazo">*prazo de entrega 8 dias úteis</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PAGAMENTO -->
+      <section class="pagamento-form">
+        <h3>2. Forma de Pagamento</h3>
+        <form id="form-pagamento">
+          <label><input type="radio" name="pagamento" value="debito"> Cartão de Débito</label>
+          <label><input type="radio" name="pagamento" value="credito"> Cartão de Crédito</label>
+          <label><input type="radio" name="pagamento" value="pix"> Pix <span class="desconto">(desconto de
+              10%)</span></label>
+
+          <button type="submit" id="concluir-compra">Concluir Compra</button>
+        </form>
+
+        <!-- MENSAGEM FINAL -->
+        <p id="mensagem-final" class="mensagem-final"></p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="img/logo-removebg-preview.png" alt="Logo TubaTech">
+      </div>
+      <p>Contato: contatotubatech@gmail.com</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/pagamento.js"></script>
+</body>
+
+</html>

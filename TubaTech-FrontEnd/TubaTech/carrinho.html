@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Carrinho - TubaTech</title>
+  <link rel="stylesheet" href="css/carrinho.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="img/logo-removebg-preview.png" alt="Logo TubaTech">
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="pesquise por produtos">
+      <button class="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <div class="user-actions">
+      <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+      <a href="#" title="Perfil"><i class="fas fa-user"></i></a>
+    </div>
+  </header>
+
+  <h1>Carrinho</h1>
+
+  <main class="carrinho-principal">
+    <!-- Lista de produtos -->
+    <section class="carrinho-container" id="lista-carrinho"></section>
+    <!-- seção onde os produtos adicionados ao carrinho serão exibidos. Está vazia por enquanto — o conteúdo será inserido via JavaScript.-->
+
+
+
+    <!-- Resumo da compra -->
+    <section class="resumo-compra"> <!-- nome usado para aplicar estilos com CSS-->
+
+      <p id="total">Total: R$ 0,00</p> <!--para que o JavaScript consiga atualizar esse valor dinamicamente.-->
+
+      <p id="mensagem-frete" class="frete-gratis">Seu pedido está qualificado para <strong>frete grátis</strong></p>
+      <!-- id="mensagem-frete" permite que o JavaScript troque essa mensagem. -->
+
+      <div class="botoes-carrinho">
+        <button onclick="voltar()" class="voltar-bn">Voltar</button> <!--Leva o usuário de volta.-->
+        <button onclick="limparCarrinho()" class="limpar-btn">Limpar carrinho</button> <!--Esvazia o carrinho.-->
+        <button onclick="finalizarCompra()" class="finalizar-btn">Finalizar compra</button> <!--Vai para o pagamento-->
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="img/logo-removebg-preview.png" alt="Logo TubaTech">
+      </div>
+      <p>Contato: contatotubatech@gmail.com</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- java Script -->
+  <script src="js/vercarrinho.js"></script>
+</body>
+
+</html>

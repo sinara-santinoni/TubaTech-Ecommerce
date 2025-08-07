@@ -1,0 +1,283 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+main {
+  flex: 1; /* ocupar todo o espaço restante da tela.*/
+}
+
+/* Cabeçalho */
+header {
+  background-color: #F0EDE4D0;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*espaço igual entre os elementos*/
+  flex-wrap: wrap; /*permite quebrar linha em telas menores.*/
+  border-bottom: solid 1px black;
+}
+
+.logo img {
+  height: 40px;  /*Define o tamanho da logo do site*/
+}
+
+/* Busca */
+.search-container {
+  flex: 1;
+  max-width: 500px;
+  margin: 0 20px;
+  position: relative;
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f5f2ea;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+  font-style: italic;
+  color: #333;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+  border-left: 1px solid #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button i {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Ícones à direita */
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.user-actions a {
+  color: #000000;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.user-actions a:hover {
+  transform: scale(1.2);
+}
+
+/* Botões de categoria */
+nav {
+  background-color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  flex-wrap: wrap; /*permite que os botões quebrem linha se não couberem na horizontal.*/
+}
+
+/*Estiliza todos os botões que estão dentro do <nav>.*/
+
+nav button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  margin: 5px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*Ele inverte as cores: fundo branco e texto preto, indicando que aquela categoria está selecionada.*/
+
+nav button.active {
+  border: 2px solid #555;
+  background-color: white;
+  color: #000;
+}
+
+/* Card do produto */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /*nada pode “vazar” pra fora do card.*/
+  transition: transform 0.2s; /*efeito suave ao aplicar transformações.*/
+}
+
+.card:hover {
+  transform: translateY(-5px); /*Quando o mouse passa por cima do card, ele sobe levemente*/
+}
+
+.card-img-top {
+  height: 180px;
+  width: 100%;
+  object-fit: contain; /*garante que a imagem caiba sem distorcer.*/
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.card-body {
+  padding: 15px; /*Espaçamento interno entre os elementos do card (título, categoria, preço, botões).*/
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  height: 60px; /*evita que cards fiquem de tamanhos diferentes*/
+  overflow: hidden; /*evita que cards fiquem de tamanhos diferentes*/
+}
+
+.card-category {
+  font-size: 13px;
+  color: gray;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/*Área dos botões (comprar e ícone), lado a lado com espaço entre eles.*/
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-comprar {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: lowercase;
+  flex: 1;
+  text-align: center;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-comprar:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+
+.btn-icon {
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-icon:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+
+.btn-icon i {
+  margin: 0;
+  padding: 0;
+}
+
+/* Rodapé */
+footer {
+  background-color: #F0EDE4D0;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social a {
+  color: #000000;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  nav button {
+    flex: 1 1 40%;
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-title {
+    height: auto;
+  }
+
+  .btn-comprar {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .btn-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
