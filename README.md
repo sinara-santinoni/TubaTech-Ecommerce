@@ -20,6 +20,6 @@ Projeto de e-commerce responsivo para venda de eletrônicos, desenvolvido como p
 - Bootstrap  
 - localStorage (armazenamento local do navegador)
 
-💻 Como executar o projeto
+
 
 
