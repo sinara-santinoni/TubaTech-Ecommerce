@@ -37,5 +37,19 @@ O **TubaTech** é um e-commerce responsivo de eletrônicos, com catálogo filtr�
 
 ---
 
-## 📂 Estrutura do Projeto
+---
+
+## 👥 Equipe
+
+Projeto desenvolvido como parte do curso de **Análise e Desenvolvimento de Sistemas**.
+
+| Foto | Nome | Função |
+|------|------|--------|
+| ![Sinara](img/readme/sinara.png) | **Sinara Santinoni** | Desenvolvimento do front-end (HTML, CSS, JS, Bootstrap, localStorage) |
+| ![Luis](img/readme/luis.png) | **Luis** | Desenvolvimento do back-end |
+| ![André](img/readme/andre.png) | **André** | Desenvolvimento do back-end |
+| ![Laura](img/readme/laura.png) | **Laura** | Documentação e UX Design |
+
+> As fotos são opcionais. Se não quiser fotos, basta remover a primeira coluna e manter só o nome e função.
+
 
