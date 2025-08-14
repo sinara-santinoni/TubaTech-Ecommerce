@@ -1,39 +1,41 @@
-🛒 TubaTech - E-commerce de Eletrônicos
+# 🛒 TubaTech – E-commerce de Eletrônicos
 
-Projeto de e-commerce responsivo para venda de eletrônicos, desenvolvido como parte de um projeto acadêmico no curso de Análise e Desenvolvimento de Sistemas.
+Projeto acadêmico do curso de **Análise e Desenvolvimento de Sistemas**.  
+O **TubaTech** é um e-commerce responsivo de eletrônicos, com catálogo filtrável, carrinho persistente e checkout com cálculo de frete e desconto no Pix.
 
-🚀 Funcionalidades
+---
 
-- ✅ Filtro por categorias (celular, computador, notebook, tablet, periféricos)
-- ✅ Cards com imagem, descrição e preço
-- ✅ Adição de produtos ao carrinho
-- ✅ Cálculo dinâmico de frete (grátis a partir de R$200)
-- ✅ Simulação de pagamento com desconto no Pix
-- ✅ Carrinho com persistência em localStorage
-- ✅ Layout responsivo com Bootstrap
+## 📸 Preview do Projeto
 
-🛠️ Tecnologias Utilizadas
+| Home | Carrinho | Pagamento |
+|------|----------|-----------|
+| ![Home](img/readme/home.png) | ![Carrinho](img/readme/carrinho.png) | ![Pagamento](img/readme/pagamento.png) |
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Bootstrap  
-- localStorage (armazenamento local do navegador)
+> Substitua os arquivos acima por prints reais do seu projeto.
 
-  ---
+---
 
-👥 Equipe
+## 🚀 Funcionalidades
 
-Este projeto foi desenvolvido em equipe como parte de um trabalho acadêmico no curso de Análise e Desenvolvimento de Sistemas.
+- ✅ Filtro por categorias (**Celular**, **Computador**, **Notebook**, **Tablet**, **Periféricos**)
+- ✅ Cards com **imagem**, **descrição** e **preço**
+- ✅ **Adicionar** produtos ao carrinho
+- ✅ **Cálculo automático de frete** (grátis a partir de **R$ 200,00**)
+- ✅ Simulação de pagamento com **desconto no Pix (10%)**
+- ✅ **Persistência** do carrinho com `localStorage`
+- ✅ **Layout responsivo** com **Bootstrap**
 
-- **Sinara Santinoni** – Responsável pelo desenvolvimento do **front-end** (HTML, CSS, JS, Bootstrap, localStorage)  
-- **Luis** – Desenvolvimento do **back-end**
-- **André** – Desenvolvimento do **back-end**
-- **Laura** – Responsável pela **documentação** e **UX Design**
+---
 
+## 🛠️ Tecnologias Utilizadas
 
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **Bootstrap 5**
+- **localStorage** (armazenamento no navegador)
 
+---
 
-
-
+## 📂 Estrutura do Projeto
 
