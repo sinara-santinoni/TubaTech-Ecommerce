@@ -16,6 +16,25 @@ Projeto de e-commerce responsivo para venda de eletrônicos, desenvolvido como p
 
 ---
 
+🎨Layout
+
+
+<img width="1896" height="722" alt="image" src="https://github.com/user-attachments/assets/40d7d7d6-8b69-461d-b605-e1397a757b53" />
+<img width="1915" height="941" alt="image" src="https://github.com/user-attachments/assets/e7b2a263-7273-4ff7-ad3d-75577f15b93c" />
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5  
