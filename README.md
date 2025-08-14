@@ -28,7 +28,7 @@ Projeto de e-commerce responsivo para venda de eletrônicos, desenvolvido como p
 
 ## 👥 Equipe
 
-Este projeto foi desenvolvido em equipe como parte de um trabalho acadêmico no curso de **Análise e Desenvolvimento de Sistemas**.
+Este projeto foi desenvolvido em equipe como parte de um trabalho acadêmico no curso de **Qualificação profissional da trier sistemas**.
 
 - **Sinara Santinoni** – Responsável pelo desenvolvimento do front-end (HTML, CSS, JS, Bootstrap, localStorage)  
 - **Luis** – Desenvolvimento do back-end  
