@@ -1,6 +1,6 @@
 # 🛒 TubaTech - E-commerce de Eletrônicos
 
-Projeto de e-commerce responsivo para venda de eletrônicos, desenvolvido como parte de um projeto acadêmico no curso de **Análise e Desenvolvimento de Sistemas**.
+Projeto de e-commerce responsivo para venda de eletrônicos, desenvolvido como parte de um projeto do curso de **Qualificação profissional da trier sistemas**.
 
 ---
 
